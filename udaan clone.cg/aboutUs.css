@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    background: #f4f6fa;
+    color: #333;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+    background: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #111;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buy-btn {
+    background: #d10000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* ABOUT SECTION */
+.about {
+    width: 70%;
+    margin: auto;
+    padding: 60px 0;
+}
+
+.about h1 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 26px;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* SECTION TAG */
+.section-title {
+    width: 70%;
+    margin: 40px auto 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* PROFILE CARD */
+.profile, .leader {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.profile img, .leader img {
+    width: 230px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.text h2 {
+    font-size: 32px;
+    margin: 0 0 10px;
+}
+
+.text p {
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+
+.leader h4 {
+    margin-top: -10px;
+    color: #444;
+}
+.main-footer {
+    background: #24242c;
+    padding: 60px 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #c2c2c2;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-social a img {
+    width: 32px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background: white;
+    padding: 5px;
+}

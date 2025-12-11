@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px 25px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.navbar .left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 130px;
+    opacity: 0.95;
+}
+
+.banner {
+    width: 60%;
+    margin: 35px auto 25px auto;
+    background: #ff4d4d;
+    color: white;
+    padding: 18px 20px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    box-shadow: 0 4px 12px rgba(255, 76, 76, 0.25);
+}
+
+.banner img {
+    width: 120px;
+}
+
+#news-container {
+    width: 55%;
+    margin: auto;
+}
+
+.news-card {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 22px 0;
+
+    box-shadow: 0 1px 6px rgba(0,0,0,0.18);
+    transition: 0.2s ease;
+}
+
+.news-image img {
+    width: 290px;
+    height: 210px;
+    object-fit: cover;
+}
+
+.news-content {
+    padding: 18px 22px;
+    flex: 1;
+}
+
+.news-title {
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+    line-height: 1.35;
+}
+
+.short-info {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 12px;
+}
+
+.news-desc {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.55;
+    margin-bottom: 12px;
+}
+
+.read-more {
+    font-size: 14px;
+}
+
+.read-more a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.read-more a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+    .banner,
+    #news-container {
+        width: 90%;
+    }
+
+    .news-card {
+        flex-direction: column;
+    }
+
+    .news-image img {
+        width: 100%;
+        height: auto;
+    }
+}
