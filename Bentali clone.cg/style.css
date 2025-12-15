@@ -10,7 +10,6 @@ body {
   color: #fff;
 }
 
-/* NAVBAR */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -30,9 +29,8 @@ body {
   letter-spacing: 1px;
 }
 
-.logo {
-  font-size: 20px;
-  letter-spacing: 3px;
+.logo img {
+    width: 120px;
 }
 
 .outline-btn {
@@ -58,7 +56,6 @@ body {
   background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
 }
 
-/* HERO CONTENT */
 .hero-content {
   position: relative;
   padding: 80px;
@@ -89,7 +86,6 @@ body {
   margin-bottom: 30px;
 }
 
-/* BUTTONS */
 .hero-buttons {
   display: flex;
   gap: 20px;
@@ -111,7 +107,6 @@ body {
   cursor: pointer;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .navbar {
     padding: 20px;
@@ -156,8 +151,6 @@ body {
   color: #444;
   margin-bottom: 25px;
 }
-
-/* BUTTONS */
 .bentley-buttons {
   margin-top: 40px;
   display: flex;
@@ -174,19 +167,16 @@ body {
   transition: all 0.3s ease;
 }
 
-/* PRIMARY BUTTON */
 .btn.primary {
   background: #2f3f39;
   color: #fff;
 }
 
-/* OUTLINE BUTTON */
 .btn.outline {
   border: 1px solid #000;
   color: #000;
 }
 
-/* HOVER EFFECTS */
 .btn.primary:hover {
   background: #1f2b26;
 }
@@ -196,7 +186,6 @@ body {
   color: #fff;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .bentley-about {
     padding: 80px 15px;
@@ -221,7 +210,6 @@ body {
   gap: 30px;
 }
 
-/* CARD */
 .link-card {
   position: relative;
   height: 420px;
@@ -236,7 +224,6 @@ body {
   transition: transform 0.6s ease;
 }
 
-/* DARK OVERLAY */
 .link-card::after {
   content: "";
   position: absolute;
@@ -248,7 +235,6 @@ body {
   );
 }
 
-/* TEXT */
 .card-content {
   position: absolute;
   bottom: 40px;
@@ -270,12 +256,10 @@ body {
   color: #ddd;
 }
 
-/* HOVER EFFECT */
 .link-card:hover img {
   transform: scale(1.08);
 }
 
-/* RESPONSIVE */
 @media (max-width: 1200px) {
   .links-wrapper {
     grid-template-columns: repeat(2, 1fr);
@@ -291,7 +275,6 @@ body {
     height: 360px;
   }
 }
-/* SECTION */
 .mulliner-hero {
   position: relative;
   min-height: 90vh;
@@ -303,7 +286,6 @@ body {
   overflow: hidden;
 }
 
-/* DARK GRADIENT */
 .mulliner-overlay {
   position: absolute;
   inset: 0;
@@ -314,7 +296,6 @@ body {
   );
 }
 
-/* GLASS CARD */
 .mulliner-card {
   position: relative;
   max-width: 420px;
@@ -326,7 +307,6 @@ body {
   z-index: 2;
 }
 
-/* TEXT */
 .eyebrow {
   display: block;
   font-size: 13px;
@@ -349,7 +329,6 @@ body {
   margin-bottom: 35px;
 }
 
-/* BUTTON */
 .mulliner-btn {
   display: inline-flex;
   align-items: center;
@@ -366,8 +345,6 @@ body {
 .mulliner-btn:hover {
   background: #1f2b26;
 }
-
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .mulliner-hero {
     padding: 40px 20px;
@@ -381,7 +358,6 @@ body {
     font-size: 32px;
   }
 }
-/* SECTION */
 .configurator-section {
   position: relative;
   min-height: 90vh;
@@ -394,7 +370,6 @@ body {
   overflow: hidden;
 }
 
-/* DARK / GOLD OVERLAY */
 .config-overlay {
   position: absolute;
   inset: 0;
@@ -405,7 +380,6 @@ body {
   );
 }
 
-/* GLASS CARD */
 .config-card {
   position: relative;
   max-width: 560px;
@@ -417,7 +391,6 @@ body {
   z-index: 2;
 }
 
-/* TEXT */
 .config-eyebrow {
   display: block;
   font-size: 13px;
@@ -440,7 +413,6 @@ body {
   margin-bottom: 35px;
 }
 
-/* BUTTON */
 .config-btn {
   display: inline-block;
   padding: 14px 32px;
@@ -456,7 +428,6 @@ body {
   background: #1f2b26;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .config-card {
     padding: 40px 30px;
@@ -475,7 +446,6 @@ body {
   padding: 120px 60px 60px;
 }
 
-/* MAIN GRID */
 .about-container {
   max-width: 1200px;
   margin: auto;
@@ -485,14 +455,12 @@ body {
   align-items: center;
 }
 
-/* IMAGE */
 .about-image img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
 
-/* CONTENT */
 .about-content h2 {
   font-size: 34px;
   font-weight: 400;
@@ -508,7 +476,6 @@ body {
   margin-bottom: 40px;
 }
 
-/* BUTTONS */
 .about-buttons {
   display: flex;
   gap: 20px;
@@ -542,7 +509,6 @@ body {
   color: #fff;
 }
 
-/* FOOTER LINKS */
 .about-footer {
   margin-top: 100px;
   display: flex;
@@ -562,7 +528,6 @@ body {
   font-weight: bold;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .about-container {
     grid-template-columns: 1fr;
@@ -584,7 +549,6 @@ body {
   color: #000;
 }
 
-/* SOCIAL */
 .footer-social {
   display: flex;
   justify-content: center;
@@ -598,14 +562,12 @@ body {
   color: #000;
 }
 
-/* SEPARATOR */
 .bentley-footer hr {
   border: none;
   border-top: 1px solid #000;
   margin: 40px 0;
 }
 
-/* MAIN LINKS */
 .footer-links {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -630,7 +592,6 @@ body {
   text-decoration: underline;
 }
 
-/* EXTRA LINKS */
 .footer-extra {
   display: flex;
   flex-wrap: wrap;
@@ -644,7 +605,6 @@ body {
   color: #000;
 }
 
-/* LEGAL */
 .footer-legal {
   display: flex;
   flex-wrap: wrap;
@@ -657,14 +617,12 @@ body {
   color: #000;
 }
 
-/* ADDRESS */
 .footer-address {
   font-size: 11px;
   margin-top: 20px;
   color: #444;
 }
 
-/* RESPONSIVE */
 @media (max-width: 1000px) {
   .footer-links {
     grid-template-columns: repeat(2, 1fr);
